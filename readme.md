@@ -17,7 +17,7 @@ location of choice.  Then edit your .bashrc or .zshrc or whatever with the
 following, substituting the the curly brace content with the directory of your
 choice:
 
-```alias work="cd {DIRECTORY WITH THE FILES}; node i{DIRECTORY WITH THE FILES}/app.js; cd -"```
+```alias work="cd {DIRECTORY WITH THE FILES}; node {DIRECTORY WITH THE FILES}/app.js; cd -"```
 
 finally, edit the JSON file replacing the various task names in the "times"
 object with whatever you
